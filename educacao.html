@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            font-size: 70%;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #000;
+            color: #fff;
+            padding-top: 80px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 3rem;
+            color: rgb(93, 175, 212);
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        nav {
+            display: flex;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        nav a {
+            font-size: 1.8rem;
+            color: #fff;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: rgb(99, 172, 206);
+            border-bottom: 3px solid rgb(99, 172, 206);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: rgb(93, 175, 212);
+            text-transform: uppercase;
+        }
+
+        ul {
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+
+        li {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Meu Portfólio</a>
+        
+        <nav>
+            <a href="index.html"> home</a>
+            <a href="habilidades.html"> habilidades</a>
+            <a href="educacao.html" class="active"> educaçao</a>
+            <a href="experiencia.html"> experiencia</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h1>Educação</h1>
+
+            <ul>
+                <li>Ensino Médio Técnico em Análise e Desenvolvimento de Sistemas – Concluído</li>
+                <li>Graduação em Análise e Desenvolvimento de Sistemas – Estácio Castanhal (Cursando – 2º Período)</li>
+            </ul>
+
+            <h1>cursos complementares</h1>
+            <ul>
+                <li>Front-End, Back-End, Data Science e UX Design – Alura</li>
+                <li>HTML, CSS e JavaScript (Curso em Vídeo – Gustavo Guanabara)</li>
+            </ul>
+        </div>
+    </main>
+    
+</body>
+</html>

@@ -227,7 +227,7 @@ span{
 
 @keyframes words {
     0%, 20%{
-        content: "estudante";
+        content: "analista de dados";
     }
     21%, 40%{
     content: "game developer";
@@ -236,7 +236,7 @@ span{
     content: "Web Designer";
     }
     61%, 80%{
-        content:"youtuber ";
+        content:"e full stack";
     }
 }
 
@@ -266,3 +266,4 @@ p{
   line-height: 1.6; /* deixa o texto mais espaçado verticalmente */
     
 }
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html {
+            font-size: 70%;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #000;
+            color: #fff;
+            padding-top: 80px;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 9%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 3rem;
+            color: rgb(93, 175, 212);
+            font-weight: 800;
+            cursor: pointer;
+            transition: 0.5s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        nav {
+            display: flex;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        nav a {
+            font-size: 1.8rem;
+            color: #fff;
+            font-weight: 500;
+            transition: 0.3s ease;
+            border-bottom: 3px solid transparent;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: rgb(99, 172, 206);
+            border-bottom: 3px solid rgb(99, 172, 206);
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            color: rgb(93, 175, 212);
+            text-transform: uppercase;
+        }
+
+        ul {
+            margin-bottom: 2rem;
+            padding-left: 2rem;
+        }
+
+        li {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Meu Portfólio</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="habilidades.html" class="active">Habilidades</a>
+            <a href="educacao.html">Educação</a>
+            <a href="experiencia.html">Experiência</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Habilidades Técnicas</h1>
+        <ul>
+            <li>Desenvolvedor Front-End (HTML, CSS, JavaScript, React)</li>
+            <li>Desenvolvedor Back-End (Node.js, APIs, banco de dados)</li>
+            <li>Full Stack Developer (integração front-end e back-end)</li>
+            <li>Analista de Dados (Excel, SQL, visualização de dados)</li>
+            <li>Game Developer (lógica de jogos, Unity ou Godot)</li>
+        </ul>
+
+        <h1>Habilidades Interpessoais</h1>
+        <ul>
+            <li>Comunicação clara e eficaz</li>
+            <li>Trabalho em equipe</li>
+            <li>Resolução de problemas</li>
+            <li>Pensamento crítico</li>
+            <li>Organização e gestão de tempo</li>
+            <li>Proatividade e adaptabilidade</li>
+        </ul>
+    </main>
+    
+</body>
+</html>
